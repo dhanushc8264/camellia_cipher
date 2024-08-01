@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Camellia Cipher - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('usage') }}">Usage</a></li>
+                <li><a href="{{ url_for('algorithm') }}">Algorithm</a></li>
+                <li><a href="{{ url_for('implementation') }}">Implementation</a></li>
+                <li><a href="{{ url_for('security') }}">Security</a></li>
+                <li><a href="{{ url_for('login') }}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Welcome to Camellia Cipher</h1>
+        <p>The Camellia cipher is a modern, symmetric key block cipher with a block size of 128 bits and key sizes of 128, 192, and 256 bits.</p>
+        <img src="https://www.crypto-it.net/Images/camellia/scheme_camellia_encryption_eng.png" alt="Camellia Encryption Diagram">
+        <p>Developed by Mitsubishi Electric and NTT of Japan, Camellia is approved by the ISO/IEC, NESSIE, and CRYPTREC projects for its high level of security and performance.</p>
+        <p>Explore the various sections to learn more about its usage, algorithm, implementation, and security features.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Camellia Cipher - Algorithm</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('usage') }}">Usage</a></li>
+                <li><a href="{{ url_for('algorithm') }}">Algorithm</a></li>
+                <li><a href="{{ url_for('implementation') }}">Implementation</a></li>
+                <li><a href="{{ url_for('security') }}">Security</a></li>
+                <li><a href="{{ url_for('login') }}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Algorithm</h1>
+        <p>Camellia is a symmetric block cipher that operates on 128-bit blocks and supports key sizes of 128, 192, or 256 bits. It uses a Feistel network with 18 rounds for 128-bit keys and 24 rounds for 192- and 256-bit keys. The algorithm includes functions like F-function, FL-function, and FL-1-function, which are crucial for encryption and decryption processes.</p>
+        <img src="https://www.crypto-it.net/Images/camellia/scheme_camellia_encryption_eng.png" alt="Camellia Encryption Diagram">
+    </div>
+</body>
+</html>
